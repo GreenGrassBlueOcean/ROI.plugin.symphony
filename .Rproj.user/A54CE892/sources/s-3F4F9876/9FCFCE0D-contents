@@ -1,0 +1,28 @@
+Package: ROI.plugin.symphony
+Version: 0.2-6
+Date: 2030-07-23
+Title: ROI Plug-in SYMPHONY
+Authors@R: c(person("Stefan", "Theussl", role = c("aut", "cre"), email = "Stefan.Theussl@R-Project.org"))
+Maintainer: Laurens van der Burg <laurens@ggbo.eu>
+Description: Enhances the R Optimization Infrastructure ('ROI') package by registering
+	     the 'SYMPHONY' open-source solver from the COIN-OR suite. It allows for
+	     solving mixed integer linear programming (MILP) problems as well as all
+	     variants/combinations of LP, IP. This variant works with the lpsymphony package 
+	     that allows for easier integration on macOS and Ubuntu without requiring manual configuration.
+	     This is particularly useful for use in multi OS Continuous Integration (CI) systems like Github Actions, Travis or Appveyor.
+Imports: 
+    methods,
+    ROI (>= 0.2-5),
+    slam,
+    lpsymphony
+License: GPL-3
+SystemRequirements: SYMPHONY (>= 5.6.16) libraries and headers
+URL: http://R-Forge.R-project.org/projects/roi
+NeedsCompilation: no
+Packaged: 2017-05-17 17:15:23 UTC; theussl
+Author: Stefan Theussl [aut, cre]
+Repository: CRAN
+Date/Publication: 2017-05-17 23:19:17 UTC
+Suggests: 
+    testthat
+RoxygenNote: 7.1.1

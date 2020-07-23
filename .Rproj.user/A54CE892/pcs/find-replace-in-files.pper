@@ -1,0 +1,13 @@
+{
+    "dialog-state": {
+        "query": "Rsymphony::Rsymphony_solve_LP",
+        "path": "~/GitHub/ROI.plugin.symphony",
+        "regex": false,
+        "caseSensitive": false,
+        "filePatterns": [],
+        "excludeFilePatterns": [],
+        "resultsCount": 4,
+        "errorCount": 0,
+        "replaceErrors": ""
+    }
+}
