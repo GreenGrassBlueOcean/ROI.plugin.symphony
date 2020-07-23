@@ -15,6 +15,7 @@ Imports:
     ROI (>= 0.2-5),
     slam,
     lpsymphony
+biocViews: lpsymphony
 License: GPL-3
 SystemRequirements: SYMPHONY (>= 5.6.16) libraries and headers
 URL: http://R-Forge.R-project.org/projects/roi

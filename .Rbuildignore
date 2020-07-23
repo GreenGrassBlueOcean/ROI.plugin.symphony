@@ -1,1 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
 ^\.github$
+^data-raw$
+^LICENSE$
+^.*.yml$
+^codecov\.yml$
