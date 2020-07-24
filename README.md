@@ -7,3 +7,14 @@ This variant works with the lpsymphony package that allows for easier integratio
 This is particularly useful for use in multi OS Continuous Integration (CI) systems like Github Actions, Travis or Appveyor.
 
 based on the cran package ROI.plugin.symphony 0.2-5
+
+# Installation of the package
+
+```
+install.packages("devtools")
+devtools::install_github("GreenGrassBlueOcean/ROI.plugin.symphony")
+```
+load the package
+```
+library(ROI.plugin.symphony)
+```
