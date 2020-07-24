@@ -16,6 +16,7 @@ Imports:
     slam,
     lpsymphony
 biocViews: lpsymphony
+Depends: R (>= 3.4.0)
 License: GPL-3
 SystemRequirements: SYMPHONY (>= 5.6.16) libraries and headers
 URL: http://R-Forge.R-project.org/projects/roi
